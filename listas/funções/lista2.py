@@ -37,12 +37,12 @@ R = "não informar; 0; 1.8"
 
 # 2.1) Explique por que na execução do item 2 e 3, eles executaram igualmente mesmo com uma diferença de
 # 100x no valor?
-
+resposta = "Por causa do IF que vê se altura é maior que 100cm, convertendo para m"
 
 
 
 # 2.2) O que aconteceria se a altura fosse 190 no item 1.
-
+resposta = "Nada pois o código é falho e não vê essa condição."
 
 
 

@@ -5,7 +5,6 @@
 ### Dado o código:
 
 #########################################################################
-
 faltas = int(input(“Faltas: “)),
 maximoFaltas = int(input(“Máximo de faltas: ”))
 

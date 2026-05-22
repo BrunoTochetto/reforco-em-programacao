@@ -13,7 +13,10 @@ def repetir(texto, vezes):
 # =========
 # = Jaser =
 # =========
-
+def letreiro(nome):
+    repetir('=', 12)
+    print('= ' + nome + ' =')
+    repetir('=', 12)
 
 # 2.1 Desafio: Faça em que isso seja dinâmico, tente usar o comando len() para fazer isso.
 # >> letreiro("Jaser")         | >>letreiro("Mazzutti")
