@@ -28,7 +28,41 @@ print(tempo)     # 30
 print(theta)     # 3
 print(medo)      # 0
 
+# print(f"Finalmente a {era}° chegou no fim")
 
+# print(f"No início, {reinos} nomes foram escritos nos terrenos das terras frias")
 
+# print(f"Após {guerras} encontros de mentiras e morte, divididos em {tempo} anos")
+
+# print(f"No {lua}° eclipse trouxeram promessas quebradas junto de uma reunião")
+
+# print(f"Uma grande comoção começou, príncipes do {delta} até o Roxo chegaram no grande salão")
+
+# print(f"O número esquecido disse ao povo: 'Dentro do {salao}° salão, coroas cairão!'")
+
+# print(f"Um filme de {tempo} minutos começou na câmara, junto de tiros e fogo.")
+
+# print(f"{theta} reinos viveram. {delta}, {alfa} é Vermelho e por fim {theta} é o Cinza")
+delta = "azul"
+# alfa = "Vermelho"
+# theta = "cinza"
+
+# print(f"Junto da batalha que começava dentro de cada reino.")
+
+# print(f"{delta} olhou o céu, {alfa} rasgou o chão, {theta} fechou os olhos para si mesmo")
+
+# print(f"{alfa} esqueceu o seu sangue e sua alma, e se tornou {morte}")
+
+# print(f"{delta} prosperou e se vingou de si mesmo, o tornando {+1}")
+
+# print(f"{theta} esqueceu seu juramento, a chama do futuro se tornou o medo do povo")
+
+# print(f"Quando tudo cessou, restava apenas aquilo que ainda podia ser visto ao olhar para cima")
+
+# print(f"O último do reino que restou seguiu em silêncio até o {salao}° salão e a tomou")
+
+# print(f"Junto da {era + 1}° era, o novo príncipe ganhava a sua coroa, a nova coroa {cor}")
+
+cor = delta
 
 

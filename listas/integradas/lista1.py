@@ -11,7 +11,7 @@
 # Crosta continental
 # 0 até 70km
 # Astenosfera
-# 75 km até 650 km
+# 70 km até 650 km
 # Mesosfera
 # 650 km até 2900 km
 # Núcleo externo

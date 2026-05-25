@@ -64,7 +64,7 @@ print(mensagem)
 
 # 1) Execute o código (mentalmente, de preferência) e descreva o que ele faz.
 
-
+aspasResposta = "O importante da resposta é falar que 'é o mesmo código que se repete 4 vezes'."
 
 
 # 2) O código tem alguns conceitos que poderiam ser aplicados, dado seu conhecimento sobre python, é correto afirmar que: (Justifique as falsas!)
