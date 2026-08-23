@@ -8,5 +8,18 @@ def fatorial(valorAtual):
     # Final função
     return conta
 
-fatorial(3)
+fatorial(5)
+
+
+
+
+def somarCoelho(coelhos):
+    if coelhos == 0:
+        return 0
+    
+    conta = 2 + somarCoelho(coelhos-1)
+    
+    return conta
+
+
 

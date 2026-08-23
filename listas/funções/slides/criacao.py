@@ -12,4 +12,25 @@ horas = 100
 somarSucessivas(idade, valores, ifc, horas)
 #183
 
+def concatenarStrENumero(string, numero):
+    return string + str(numero)
 
+concatenarStrENumero('Alisson', 18)
+
+nome = "Lara"
+valor = 17
+concatenacao = concatenarStrENumero(nome, valor)
+
+def repetirCaracter(string, quantidade, prefixo='', sufixo=''):
+       print(prefixo + string * quantidade + sufixo)
+    
+repetirCaracter("#=-", 8)
+#=-#=-#=-#=-#=-#=-#=-#=-
+
+repetirCaracter("ZX", 4, prefixo="#", sufixo="123")
+#ZXZXZXZX123
+
+def printBonito(texto):
+    print('===========')
+    print(texto)
+    print('===========')
