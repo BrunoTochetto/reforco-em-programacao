@@ -36,25 +36,6 @@ def sanitizar_e_validar_telefone_original(telefone_cru):
         return True
     return False
 
-# =====================================================================
-# CÓDIGO PARA DEPURAÇÃO
-# =====================================================================
-def sanitizar_e_validar_telefone_depurar(telefone_cru):
-    """
-    O MESMO CÓDIGO DA FUNÇÃO ANTERIOR, UTILIZADO PARA DEBUG.
-    """
-    # Remove caracteres comuns de formatação web
-    caracteres_remover = ["(", ")", "-", " "]
-    telefone_limpo = telefone_cru
-    
-    for char in caracteres_remover:
-        telefone_limpo.replace(char, "")
-    
-    # Validação do tamanho
-    if len(telefone_limpo) == 11:
-        return True
-    return False
-
 
 # Com os caracteres removidos, o resultado deveria ser "12123451234" (11 dígitos -> Válido)
 entrada1 = "(12) 12345-1234"

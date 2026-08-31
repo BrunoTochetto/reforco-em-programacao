@@ -310,7 +310,8 @@ def menu_professores():
                 try:
                     aluno_id = int(input("Digite o ID do Aluno para aplicar falta: "))
                     
-                    sucesso = turma_ativa.registrar_falta_aluno(aluno_id)
+                    aluno = buscar_aluno_por_id(aluno_id)
+                    sucesso = turma_ativa.registrar_falta_aluno(aluno)
                     
                 except ValueError:
                     print("Erro: Entrada inválida.")

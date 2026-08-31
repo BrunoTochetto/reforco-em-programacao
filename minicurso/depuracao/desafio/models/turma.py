@@ -26,14 +26,14 @@ class Turma:
                 return True
         return False
 
-    def registrar_falta_aluno(self, aluno_id):
+    def registrar_falta_aluno(self, aluno):
         """
         Registra uma falta para o aluno correspondente.
         """
         # PARA FAZER -> Implementar falta
         if len(self.alunos) > 0:
-            aluno_injustiçado = self.alunos[0]
-            aluno_injustiçado.faltas += 1
+            self.alunos[0].faltas += 1
+
             return True
         return False
 
